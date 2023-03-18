@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.card-cont {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    grid-gap: 1.5rem;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-block: 1rem;
+}
+
+.card-cont a {
+    text-decoration: 0;
+    color: inherit;
+}
+
+.card {
+    border: 1px solid gray;
+    padding-bottom: 0.75rem;
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.header img {
+    height: 200px;
+}
+
+.info-field {
+    margin-left: 1rem;
+    width: 80%;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
+.address-field {
+    width: 30%;
+}
+
+.error {
+    text-align: center;
+    font-size: 5rem;
+    color: green;
+}
